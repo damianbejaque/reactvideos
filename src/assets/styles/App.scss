@@ -1,6 +1,6 @@
 @import "./Vars.scss";
 @import "./Media.scss";
- body {
+body {
   margin: 0;
   font-family: $theme-font;
   background: $main-color;
@@ -8,4 +8,37 @@
 
 * {
   box-sizing: border-box;
+}
+
+.button {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Muli", sans-serif;
+  height: 50px;
+  letter-spacing: 1px;
+  margin: 10px 0px;
+}
+
+.input {
+  background-color: transparent;
+  border-bottom: 2px solid white;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  color: white;
+  font-family: "Muli", sans-serif;
+  font-size: 16px;
+  height: 50px;
+  margin-bottom: 20px;
+  outline: none;
+  padding: 0px 20px;
+}
+
+::placeholder {
+  color: white;
 }
